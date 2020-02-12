@@ -7,7 +7,7 @@ public class TestClass {
         int age = 25;
 
         for (Girl girl : getMyPair(age)) {
-            if (girl.age < age) {
+            if (girl.age > age) {
                 girl.show();
             }
         }
